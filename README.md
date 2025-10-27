@@ -1,9 +1,22 @@
 # 🪐 Orbit Match Pro: Holistic Strategy Engine
 
-> **Enhanced Product:** Right Fit Matcher (MBA/MS Focus)
-> **Deployed Demo:** _\[Add your frontend URL here\]_
+### \*\*Enhanced Product
+
+Right Fit Matcher (MBA/MS Focus)
+
+### Frontend (Deployed Demo)
+
+[https://orbitt-pro.netlify.app](https://orbitt-pro.netlify.app)
+
+### Backend Repository
+
+[https://github.com/MDub3y/order-match-pro-be](https://github.com/MDub3y/order-match-pro-be)
 
 ## Video Demo
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/3910117d2f7b41a3a29f69f58de9109b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
 
 [Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
 
