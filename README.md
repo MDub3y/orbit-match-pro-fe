@@ -1,8 +1,7 @@
 # 🪐 Orbit Match Pro: Holistic Strategy Engine
 
 > **Enhanced Product:** Right Fit Matcher (MBA/MS Focus)
-> **Deployed Demo:** _\[Add your frontend URL here\]_
-> **Video Demo:** [Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
+> **Deployed Demo:** _\[Add your frontend URL here\]_ > **Video Demo:** [Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
 
 ## 🚀 Overview
 
@@ -13,31 +12,36 @@ Instead of merely predicting admission chances, Orbit Match Pro **empowers users
 ## 💡 Product Choice & Strategic Rationale
 
 SectionDetails
-**Selected Product**Right Fit Matcher (MBA/MS Focus)
-**Rationale**Chosen to demonstrate robust algorithmic modeling, database design, and full-stack integration.
-**Enhancement Focus**Shifted from static recommendation engine to a
-**dynamic, strategy-driven system** that allows user-controlled balancing of priorities.
-**Mission Alignment**Reinforces Orbit AI’s mission of democratizing access to higher education by empowering students to maximize both
-**admission probability** and **financial aid potential**.
+
+- **Selected Product**Right Fit Matcher (MBA/MS Focus)
+- **Rationale**Chosen to demonstrate robust algorithmic modeling, database design, and full-stack integration.
+- **Enhancement Focus**Shifted from static recommendation engine to a
+- **dynamic, strategy-driven system** that allows user-controlled balancing of priorities.
+- **Mission Alignment**Reinforces Orbit AI’s mission of democratizing access to higher education by empowering students to maximize both
+  **admission probability** and **financial aid potential**.
 
 ## ✨ Core Enhancements & Value
 
 FeatureDescriptionOutcome
-**Strategy Slider (α)**Dynamic user control between _Admission Odds_ and _Financial ROI_.Personalized, real-time re-ranking of universities.
-**Holistic Algorithm**Integrates quantitative metrics + qualitative keyword matching.More realistic, context-aware results.
-**Profile Scan (AI Mock)**Parses uploaded resume to extract keywords and identify profile gaps.Enhances engagement and data quality.**Dynamic Dashboard**Real-time charts & metric comparisons via Recharts.Improves user understanding & visualization.
-**Dark Mode + Responsive Design**Tailwind-driven adaptive theming.Mobile- and accessibility-ready.**Production-ready Auth**Clerk.dev integration for secure login & session management.Enterprise-grade authentication.
+
+- **Strategy Slider (α)**Dynamic user control between _Admission Odds_ and _Financial ROI_.Personalized, real-time re-ranking of universities.
+- **Holistic Algorithm**Integrates quantitative metrics + qualitative keyword matching.More realistic, context-aware results.
+- **Profile Scan (AI Mock)**Parses uploaded resume to extract keywords and identify profile gaps.Enhances engagement and data quality.
+- **Dynamic Dashboard**Real-time charts & metric comparisons via Recharts.Improves user understanding & visualization.
+- **Dark Mode + Responsive Design**Tailwind-driven adaptive theming.Mobile- and accessibility-ready.
+- **Production-ready Auth**Clerk.dev integration for secure login & session management.Enterprise-grade authentication.
 
 ## 🧩 Technical Architecture
 
 LayerTechnologyPurpose
-**Frontend**Next.js 16 (App Router), TypeScriptModern, fast, and component-driven interface
-**Backend**Node.js + Express (TypeScript)RESTful API handling core logic and data operations
-**Database**PostgreSQL + Prisma ORMType-safe schema and optimized queries
-**State Management**ZustandLightweight, reactive global store
-**Authentication**Clerk.devSecure user identity and session management
-**Styling & Visualization**Tailwind CSS, lucide-react, rechartsSemantic UI and interactive charts
-**Deployment**Netlify (Frontend), Render (Backend)Cloud-deployed with environment variables
+
+- **Frontend**Next.js 16 (App Router), TypeScriptModern, fast, and component-driven interface
+- **Backend**Node.js + Express (TypeScript)RESTful API handling core logic and data operations
+- **Database**PostgreSQL + Prisma ORMType-safe schema and optimized queries
+- **State Management**ZustandLightweight, reactive global store
+- **Authentication**Clerk.devSecure user identity and session management
+- **Styling & Visualization**Tailwind CSS, lucide-react, rechartsSemantic UI and interactive charts
+- **Deployment**Netlify (Frontend), Render (Backend)Cloud-deployed with environment variables
 
 ## 🧮 The 𝑺_total Algorithm
 
@@ -75,7 +79,11 @@ If a user prioritizes ROI (α = 0.3), the system emphasizes scholarship-heavy pr
 
 **Endpoints:**
 
-EndpointMethodAuthFunction/api/matchPOST✅Executes the 𝑆_total algorithm and returns ranked results/api/profile/scanPOST✅Mock AI endpoint — extracts resume keywords/api/universitiesGET✅Fetches static university list (22 seeded records)
+EndpointMethodAuthFunction
+
+- /api/matchPOST✅Executes the 𝑆_total algorithm and returns ranked results
+- /api/profile/scanPOST✅Mock AI endpoint — extracts resume keywords
+- /api/universitiesGET✅Fetches static university list (22 seeded records)
 
 **Error Handling:**
 
@@ -121,21 +129,22 @@ Frontend: [http://localhost:3000](http://localhost:3000)Backend: [http://localho
 ## 🌐 Deployment
 
 ServiceRoleURL
-**Vercel**Frontend Hosting\[add link\]
-**Render / Railway**Backend API\[add link\]
-**Supabase / Neon / Railway**PostgreSQL Database\[add link\]
+
+- **Vercel**Frontend Hosting
+- **Render / Railway**Backend API
+- **Supabase / Neon / Railway**PostgreSQL Database
 
 ## 🧰 Bonus & Enhancements
 
-✅ Clerk-based Authentication
-✅ Zustand Global State
-✅ Responsive Design
-✅ Dark Mode
-✅ Dynamic Sorting (Strategy Slider)
-✅ Charts & Data Visualization (Recharts)
-✅ Server + Client Validation
-✅ Centralized Error Handling
-✅ AI Resume Parsing (Mock API)
+- ✅ Clerk-based Authentication
+- ✅ Zustand Global State
+- ✅ Responsive Design
+- ✅ Dark Mode
+- ✅ Dynamic Sorting (Strategy Slider)
+- ✅ Charts & Data Visualization (Recharts)
+- ✅ Server + Client Validation
+- ✅ Centralized Error Handling
+- ✅ AI Resume Parsing (Mock API)
 
 ## 🔮 Future Enhancements
 
