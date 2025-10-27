@@ -1,5 +1,3 @@
-// frontend/src/components/Header.tsx (FINAL VERSION)
-
 'use client';
 import React, { useState } from 'react';
 import { useThemeStore } from '@/store/themeStore';
@@ -105,7 +103,7 @@ const Header: React.FC<HeaderProps> = ({ isLandingPage = false }) => {
                         onClick={toggleDarkMode} 
                         className="p-2 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-gray-700"
                     >
-                        {darkMode ? <Sun size={20} color={ORBIT_COLORS.accentYellow} /> : <Moon size={20} color={ORBIT_COLORS.primary} />}
+                        {darkMode ? <Sun size={20} color={ORBIT_COLORS.secondary} /> : <Moon size={20} color={ORBIT_COLORS.primary} />}
                     </button>
                     
                     {/* Auth Widget (Dropdown or UserButton) */}

@@ -8,7 +8,7 @@ import Link from 'next/link';
 const ORBIT_COLORS = {
     primary: '#0057E7',      // Deep Blue
     accentPurple: '#945dff', // Vibrant Purple
-    accentYellow: '#FFC800', // Bright Yellow
+    secondary: '#FFC800', // Bright Yellow
     accentPink: '#FF3366',   // Pink accent for the badge/gradients
 };
 

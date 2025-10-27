@@ -1,7 +1,11 @@
 # 🪐 Orbit Match Pro: Holistic Strategy Engine
 
 > **Enhanced Product:** Right Fit Matcher (MBA/MS Focus)
-> **Deployed Demo:** _\[Add your frontend URL here\]_ > **Video Demo:** [Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
+> **Deployed Demo:** _\[Add your frontend URL here\]_
+
+## Video Demo
+
+[Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
 
 ## 🚀 Overview
 
@@ -10,8 +14,6 @@
 Instead of merely predicting admission chances, Orbit Match Pro **empowers users to optimize their profile strategy** — combining quantitative factors (GMAT, GPA, Work Experience) and qualitative insights (resume alignment, scholarship data).
 
 ## 💡 Product Choice & Strategic Rationale
-
-SectionDetails
 
 - **Selected Product**Right Fit Matcher (MBA/MS Focus)
 - **Rationale**Chosen to demonstrate robust algorithmic modeling, database design, and full-stack integration.

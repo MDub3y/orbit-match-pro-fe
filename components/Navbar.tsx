@@ -1,13 +1,15 @@
-// frontend/src/components/Navbar.tsx
-
 'use client';
 import React from 'react';
+import dynamic from 'next/dynamic';
+
 import { UserButton, SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import { Moon, Sun } from 'lucide-react'; 
 import { useThemeStore } from '@/store/themeStore';
 import { ORBIT_COLORS } from '@/lib/constants';
 import Link from 'next/link';
 import OrbitLogo from './OrbitLogo';
+
+const LazyOrbitLogo = dynamic(() => import('./OrbitLogo'), { ssr: false, loading: () => <div className="w-10 h-10 bg-gray-200 rounded"></div> });
 
 // Define the core application links
 const AppLinks = [
@@ -34,7 +36,7 @@ const Navbar: React.FC = () => {
                     
                     {/* Brand Logo (Simplified since the full Lottie is complex) */}
                     {/* <Link href="/" className="font-bold text-xl text-orbit-primary">ORBIT</Link> */}
-                    <OrbitLogo />
+                    <LazyOrbitLogo />
                     
                     {/* Application Navigation (Only visible when signed in) */}
                     <SignedIn>

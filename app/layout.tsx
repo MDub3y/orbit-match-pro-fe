@@ -1,24 +1,14 @@
-'use client';
+'use client'; 
 
 import { Inter } from 'next/font/google';
-
 import "./globals.css";
 import { useThemeStore } from '@/store/themeStore';
 import { useEffect } from 'react';
-import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from '@clerk/nextjs'
-import HeaderAndSidebarWrapper from '@/components/Wrapper';
-import Sidebar from '@/components/Sidebar';
-import Header from '@/components/Header';
+
+import ClientClerkProvider from '@/components/ClerkProvider';
 import Navbar from '@/components/Navbar';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] }); 
 
 export default function RootLayout({
   children,
@@ -33,19 +23,18 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <ClerkProvider>
-      <body
-        className={`bg-bg-page text-text-default ${inter.className}`}
-      >
-        {/* <HeaderAndSidebarWrapper>
-        {children}
-        </HeaderAndSidebarWrapper> */}
-        <Navbar />
-        <main className="">
-            {children}
-        </main>
-      </body>
-      </ClerkProvider>
+      {/* FIX: Wrap the application with the client-side provider */}
+      <ClientClerkProvider> 
+        <body
+          className={`bg-bg-page text-text-default ${inter.className}`}
+        >
+          {/* Layout components remain clean */}
+          <Navbar /> 
+          <main className="lg:pl-64 pt-16">
+              {children}
+          </main>
+        </body>
+      </ClientClerkProvider>
     </html>
   );
 }

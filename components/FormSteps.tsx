@@ -112,10 +112,10 @@ export const StepResume: React.FC<any> = ({ onScan, prevStep, loading }) => {
                 className="mt-1 block w-full border text-gray-700 border-gray-300 rounded-lg shadow-inner p-4 focus:ring-2 focus:ring-orbit-primary"
             />
             
-            {profile.ai_extracted_keywords?.keywords?.length > 0 && (
+            {profile.ai_extracted_keywords?.keywords && profile.ai_extracted_keywords?.keywords?.length > 0 && (
                 <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-400 animate-slideIn">
                     <p className="font-semibold text-green-700">Keywords Extracted:</p>
-                    <p className="text-green-600 italic font-mono text-sm">{profile.ai_extracted_keywords.keywords.join(', ')}</p>
+                    <p className="text-green-600 italic font-mono text-sm">{profile.ai_extracted_keywords?.keywords.join(', ')}</p>
                 </div>
             )}
 

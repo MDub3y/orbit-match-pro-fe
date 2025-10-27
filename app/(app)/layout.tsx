@@ -1,25 +1,27 @@
-// frontend/src/app/(main)/layout.tsx (APPLICATION SHELL)
-
+'use client'; 
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { SignedIn } from '@clerk/nextjs';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
+
+// 1. Dynamically import the Sidebar component, disabling SSR
+const LazySidebar = dynamic(() => import('@/components/Sidebar'), { ssr: false });
 
 export default function MainAppLayout({
-  children,
+  children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-  return (
-    <>
-      
-      <SignedIn>
-        <Sidebar />
-        
-        <main className="">
-          {children}
-        </main>
-      </SignedIn>
-    </>
-  );
+  return (
+    <>
+      
+      <SignedIn>
+        {/* 2. Use the Lazy-Loaded Sidebar */}
+        <LazySidebar />
+        
+        <main className="lg:pl-64 pt-16"> 
+          {children}
+        </main>
+      </SignedIn>
+    </>
+  );
 }
