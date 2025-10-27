@@ -18,7 +18,7 @@ export default function MainAppLayout({
         {/* 2. Use the Lazy-Loaded Sidebar */}
         <LazySidebar />
         
-        <main className="lg:pl-64 pt-16"> 
+        <main className="-mt-12"> 
           {children}
         </main>
       </SignedIn>

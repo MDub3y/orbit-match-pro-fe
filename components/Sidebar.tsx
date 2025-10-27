@@ -74,8 +74,8 @@ const Sidebar: React.FC = () => {
     };
 
     return (
-        <aside className="w-64 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-800 fixed h-full pt-16 hidden lg:block">
-            <div className="p-4 space-y-2 overflow-y-auto h-[calc(100vh-100px)]">
+        <aside className="w-64 -mt-12 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-800 fixed h-full pt-8 hidden lg:block">
+            <div className="p-4 space-y-2 overflow-y-auto h-[calc(100vh-100px)] dark:text-neutral-200">
                 {renderNavItems(navItems)}
             </div>
             

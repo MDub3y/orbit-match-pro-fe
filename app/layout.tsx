@@ -30,7 +30,7 @@ export default function RootLayout({
         >
           {/* Layout components remain clean */}
           <Navbar /> 
-          <main className="lg:pl-64 pt-16">
+          <main className="">
               {children}
           </main>
         </body>

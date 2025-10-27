@@ -16,7 +16,7 @@ const DashboardCard: React.FC<{ title: string; value: string | number; descripti
 
 // Large Content Card
 const ContentCard: React.FC<{ title: string; children: React.ReactNode; icon: React.FC<any>; actionText: string }> = ({ title, children, icon: Icon, actionText }) => (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border dark:border-gray-700 h-96">
+    <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border dark:border-gray-700 min-h-screen">
         <div className="flex justify-between items-center mb-4">
             <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-200 flex items-center">
                 <Icon size={20} className="mr-2 text-orbit-primary" />
@@ -32,7 +32,7 @@ const ContentCard: React.FC<{ title: string; children: React.ReactNode; icon: Re
 
 export default function StudentDashboard() {
     return (
-        <div className="lg:pl-64 pt-20 p-4 md:p-8 bg-orbit-bg dark:bg-gray-900 min-h-screen">
+        <div className="lg:pl-64 pt-24 p-4 md:p-8 bg-orbit-bg dark:bg-gray-900 min-h-screen">
             <div className="max-w-7xl mx-auto">
                 {/* Welcome and Counselor Box */}
                 <div className="flex justify-between items-start mb-8 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
