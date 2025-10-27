@@ -1,6 +1,6 @@
 # 🪐 Orbit Match Pro: Holistic Strategy Engine
 
-### \*\*Enhanced Product
+### Enhanced Product
 
 Right Fit Matcher (MBA/MS Focus)
 
@@ -14,11 +14,7 @@ Right Fit Matcher (MBA/MS Focus)
 
 ## Video Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe src="https://www.loom.com/embed/3910117d2f7b41a3a29f69f58de9109b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
-
-[Watch on Loom](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
+[![Watch on Loom](public/loom-demo.png)](https://www.loom.com/share/3910117d2f7b41a3a29f69f58de9109b)
 
 ## 🚀 Overview
 
